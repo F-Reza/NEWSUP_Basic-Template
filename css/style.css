@@ -1,0 +1,416 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+*{margin:0;padding:0}
+
+#header{
+	background:#8C8C8C;
+	height:130px;
+}
+#header h2{
+	color:#fff;
+	margin-left:35px;
+	margin-top:10px;
+}
+#header p{
+	color:#fff;
+	font-family:arial;
+	margin-left:35px;
+	display:block;
+}
+
+#header hr{
+	width:125px;
+	margin-left:35px;
+}
+
+#header img{
+	width:500px;
+	height:65px;
+	float:right;
+	margin-top:15px;
+	margin-right:30px;
+}
+
+
+
+#social{
+	background-color:#000080;
+	height:35px;
+}
+#social a img{
+	width:25px;
+	height:25px;
+	float:right;
+	margin-right:30px;
+	margin-top:3px;
+	display:black;
+}
+
+#social p{
+	font-family:arial;
+	float:left;
+	margin-left:30px;
+	padding:10px;
+}
+#social{}
+
+
+
+#nav{
+	background-color:#000080;
+	height:38px;
+}	
+
+#nav ul li{
+	float:left;
+	border-left:0.5px solid #00a030;
+	border-right:0.5px solid #000080;
+	background-color:yellow;
+	list-style-type:none;
+}
+#nav ul li img{
+	width:30px;
+	height:30px;
+	margin-right:20px;
+}
+#nav ul{
+	margin-left:40px;
+}
+#nav ul li:first-child{
+	border-left:none;
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	font-family:arial;
+	color:#000080;
+	display:block;
+	padding:10px 20px;
+	transition:all 0.2s ease; 
+}
+#nav ul li a:hover{
+	background:green;
+	color:#fff;
+}
+
+
+/* Dropdown*/
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;
+	left:-99999px;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+
+#nav ul li ul li{
+	float:none;
+	width:180px;
+	border-left:none;
+	border-right:none;
+	border-top:0.5px solid #00a030;
+	border-bottom:0.5px solid #000080;
+}
+#nav ul li ul li:last-child{
+	border-bottom:none;
+}
+
+
+/* Sub-Dropdown*/
+#nav ul li ul li ul{
+	position:absolute;
+	top:-99999px;
+	border-left:0.5px solid #000080;
+}
+#nav ul li ul li:hover ul{
+	top:0;
+	left:140px;
+}
+#nav ul li ul li ul li{
+	background-color:#FF4D4D;
+}
+
+#nav ul li ul li ul li a{
+	color:black;
+}
+
+
+
+/* Profile*/
+#profile{
+	color:red;
+	float:right;
+	margin-right:30px;
+}
+#profile a{
+	color:#000;
+	background-color:#00FF00;
+}
+ul#profile li a:hover{
+	background:blue;
+}
+#profile{
+}
+
+
+
+
+#section{}
+#section{
+	height:355px;
+	background:#d7D9DA;
+}
+
+
+
+#Bnews{
+	height:35px;
+	background:#FFFFFF;;
+}
+
+#news-1{
+	float:;
+	height:35px;
+	width:680px;
+	background-color:pink;
+	margin-left:8px;
+	border-radius:0 100px 0 0;
+}
+
+#news{
+	float:left;
+	width:180px;
+	height:35px;
+	background-color:blue;
+	margin-left:40px;
+	border-radius:0 100px 0 0;
+}
+
+#circle-1{
+	float:left;
+	width:25px;
+	height:25px;
+	background-color:red;
+	margin-left:220px;
+	border-radius:100px;
+	margin-top:3px;
+	animation-name:anmt-1;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+@keyframes anmt-1 {
+	from{background-color:red}
+	to{background-color:#00FF00}
+}
+
+
+.scroll{
+	margin-top:5px;
+	margin-right:40px;
+	margin-left:220px;
+	height:20px;
+	overflow:hidden;
+	font-family:Arial;
+	font-size:20px;
+	color:ff1177;
+	
+	float:left;
+	display:block;
+} 
+
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+
+
+
+
+#slider{
+	float:left;
+	margin-left:40px;
+	width:825px;
+	height:300px;
+	background:#EBEDED;
+}
+#slider img{
+	width:825px;
+	height:300px;
+	vertical-align:;
+}
+
+
+#toggle{
+	width:435px;
+	height:300px;
+	background:#FFFFFF;
+	float:right;
+	margin-bottom:1px;
+	margin-right:30px;
+}
+#toggle{
+}
+#toggle{}
+
+
+
+
+#content_wrapper{
+	height:800px;
+	background:#d7D9DA;
+}
+#content_wrapper hr{
+	margin-left:40px;
+}
+#content{
+		float:left;
+}
+#content p{
+	width:800px;
+	height:200px;
+	background:#FFFFFF;
+	margin-left:40px;
+	padding:10px 10px 10px 15px;
+	text-align:justify;
+}
+
+#circle-2{
+	float:left;
+	width:25px;
+	height:25px;
+	background-color:red;
+	margin-left:220px;
+	border-radius:100px;
+	margin-top:3px;
+	animation-name:anmt-2;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+@keyframes anmt-2 {
+	from{background-color:red}
+	to{background-color:#00FF00}
+}
+
+
+.latest{
+	float:;
+	width:250px;
+	height:30px;
+	background-color:blue;
+	margin-left:40px;
+	border-radius:0 100px 0 0;
+}
+
+
+
+
+
+
+
+
+#sidebar{
+	width:435px;
+	height:660px;
+	background:#FFFFFF;
+	float:right;
+	margin-right:30px;
+}
+#aside{}
+#aside{}
+#aside{}
+
+
+
+
+
+
+
+
+
+#footer{
+	height:40px;
+	background:#5E5E5E;
+}
+#footer p{
+	color:#fff;
+	font-family:arial;
+	text-align:center;
+	display:block;
+	padding:10px 20px;
+}
+#footer p a{
+	text-decoration:none;
+	color:#3333FF;
+}
+#footer p a:hover {
+	color:red;
+}
+
+
+
+
+
+
+.Bnews{
+	height:38px;
+	display:block;
+	float:left;
+	margin-top:5px;
+}
+
+
+.block-1{
+	width:190px;
+	height:30px;
+	color:#fff;
+	background-color:blue;
+	float:left;
+	margin-left:40px;
+	text-align: center;
+	font-family:Arial;
+	display:block;
+	padding:9px 0 0 0;
+	border-radius:0 100px 0 0;
+}
+.block-2{
+	float:left;
+	width:30px;
+	height:30px;
+	margin-left:-185px;
+	margin-right:5px;
+	border-radius:100px;
+	margin-top:5px;
+	animation-name:anmt-2;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+}
+@keyframes anmt-2 {
+	from{background-color:red}
+	to{background-color:#00FF00}
+} 
+
+ 
+.scroll-1{
+	width:1080px;
+	overflow:hidden;
+	float:left;
+	margin-top:7px;
+	font-family:Arial;
+	font-size:20px;
+	font-style:italic;
+	color:blue;
+} 
+ 
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+ 
+ 
+ 
