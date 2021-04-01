@@ -1,5 +1,6 @@
 # NEWSUP_Basic-Template
-NEWSUP Basic Template
+NEWSUP Basic Template  
+
 *** Live Priview
 https://f-reza.github.io/NEWSUP_Basic-Template/
 
